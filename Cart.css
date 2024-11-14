@@ -1,0 +1,92 @@
+/* src/styles/Cart.css */
+
+.cart {
+  padding: 20px;
+  background: linear-gradient(to right, #f8f9fa, #e9ecef); /* Light gradient background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.cart h2 {
+  text-align: center;
+  color: #333; /* Dark text color */
+}
+
+.empty-cart {
+  text-align: center;
+  font-size: 1.2em;
+  color: #888; /* Grey color for empty cart */
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  background: white; /* White background for cart items */
+  border: 1px solid #dee2e6; /* Border around items */
+  border-radius: 8px; /* Rounded corners for items */
+  padding: 15px;
+  margin: 10px 0; /* Space between items */
+  transition: box-shadow 0.2s; /* Smooth hover effect */
+}
+
+.cart-item:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+}
+
+.cart-item-image {
+  width: 80px; /* Fixed width for images */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px; /* Rounded image corners */
+  margin-right: 15px; /* Space between image and text */
+}
+
+.cart-item-details {
+  flex-grow: 1; /* Allow details to grow */
+}
+
+.cart-item-name {
+  font-size: 1.2em; /* Larger font for item name */
+  margin: 0; /* Remove margin */
+}
+
+.cart-item-price {
+  color: #2ecc71; /* Green color for price */
+  font-weight: bold; /* Bold price */
+}
+
+.remove-button {
+  background: #dc3545; /* Red button for remove */
+  color: white; /* White text */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 8px 12px; /* Padding for button */
+  cursor: pointer; /* Pointer cursor */
+  transition: background-color 0.3s; /* Smooth color change */
+}
+
+.remove-button:hover {
+  background: #c82333; /* Darker red on hover */
+}
+
+.total {
+  text-align: right; /* Align total to the right */
+  font-size: 1.5em; /* Larger font for total */
+  margin-top: 20px; /* Space above total */
+}
+
+.checkout-button {
+  display: block; /* Block display to center */
+  margin: 20px auto; /* Center the button */
+  background: #007bff; /* Blue button */
+  color: white; /* White text */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 12px 20px; /* Padding for button */
+  font-size: 1.2em; /* Larger font size */
+  cursor: pointer; /* Pointer cursor */
+  transition: background-color 0.3s; /* Smooth color change */
+}
+
+.checkout-button:hover {
+  background: #0056b3; /* Darker blue on hover */
+}
