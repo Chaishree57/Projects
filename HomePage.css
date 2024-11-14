@@ -1,0 +1,48 @@
+/* src/styles/HomePage.css */
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Full height of the viewport */
+  background: linear-gradient(to bottom right, hsl(120, 68%, 76%), #bbf4ae); /* Gradient background */
+  color: white; /* Text color */
+  text-align: center; /* Center align text */
+  position: relative; /* Positioning for slogan */
+}
+
+.content {
+  z-index: 1; /* Place content above the background */
+  padding: 40px; /* Padding around content */
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent background for better text visibility */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Shadow effect */
+  margin-top: -50px; /* Move content up */
+}
+
+h1 {
+  font-size: 3em; /* Larger font size for the main heading */
+  margin: 0; /* Remove default margin */
+}
+
+p {
+  font-size: 1.2em; /* Font size for the description */
+  margin: 20px 0; /* Margin for spacing */
+}
+
+.start-button {
+  padding: 10px 20px; /* Button padding */
+  font-size: 1em; /* Button font size */
+  color: #fff; /* Button text color */
+  background-color: #ff6f61; /* Button background color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+  transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+.start-button:hover {
+  background-color: #e65c50; /* Darker shade on hover */
+}
+
